@@ -14,6 +14,7 @@
   height: 200px;
   width: 200px;
   z-index: 1;
+  transition: transform 1s ease-in-out;
 }
 
 .main p {
@@ -24,7 +25,6 @@
 
 .first {
   background-color: #ff0000;
-  transition: transform 1s ease-in-out;
   transform-origin: top left;
 }
 
@@ -34,7 +34,6 @@
 
 .second {
   background-color: #ffff00;
-  transition: transform 1s ease-in-out;
   transform-origin: top right;
 }
 
@@ -44,7 +43,6 @@
 
 .third {
   background-color: #0000ff;
-  transition: transform 1s ease-in-out;
   transform-origin: bottom left;
 }
 
@@ -54,7 +52,6 @@
 
 .fourth {
   background-color: #007d00;
-  transition: transform 1s ease-in-out;
   transform-origin: bottom right;
 }
 
