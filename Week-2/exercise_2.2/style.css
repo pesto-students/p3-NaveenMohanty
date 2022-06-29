@@ -1,0 +1,60 @@
+.main {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  position: relative;
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+  z-index: 1;
+  transition: transform 1s ease-in-out;
+}
+
+.main h1 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.first {
+  background-color: #ff0000;
+  transform-origin: top left;
+}
+
+.main:hover .first {
+  transform: rotate(90deg);
+}
+
+.second {
+  background-color: #ffff00;
+  transform-origin: top right;
+}
+
+.main:hover .second {
+  transform: rotate(-90deg);
+}
+
+.third {
+  background-color: #0000ff;
+  transform-origin: bottom left;
+}
+
+.main:hover .third {
+  transform: rotate(-90deg);
+}
+
+.fourth {
+  background-color: #007d00;
+  transform-origin: bottom right;
+}
+
+.main:hover .fourth {
+  transform: rotate(90deg);
+}
