@@ -26,3 +26,5 @@ stack.pop()
 stack.pop()
 
 console.log(stack.getList())
+
+console.log(stack.item)
