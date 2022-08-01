@@ -43,3 +43,8 @@ console.log(spriralArray([
   [7, 8, 9],
   [10, 11, 12]
 ]))
+
+/**
+ * Time complexity : O(row * col)
+ * Space complexity : O(row * col)
+ */

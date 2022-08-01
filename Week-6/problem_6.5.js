@@ -16,3 +16,8 @@ function checkPair(arr, b) {
 
 console.log(checkPair([5, 10, 3, 2, 50, 80], 40))
 console.log(checkPair([-10, 20], 30))
+
+/**
+ * Time complexity : O(n log n)
+ * Space complexity : O(1)
+ */

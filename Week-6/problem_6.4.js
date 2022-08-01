@@ -20,3 +20,8 @@ function findProfit(priceArr) {
 
 console.log(findProfit([7, 1, 5, 3, 6, 4]))
 console.log(findProfit([7, 6, 4, 3, 1]))
+
+/**
+ * Time complexity : O(n)
+ * Space complexity : O(1)
+ */

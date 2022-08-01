@@ -23,3 +23,8 @@ console.log(maxSum([1, 2, 3, 4]))
 console.log(maxSum([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
 console.log(maxSum([4, -1, 2, 1]))
 
+/**
+ * Time complexity : O(n)
+ * Space complexity : O(1)
+ */
+

@@ -19,3 +19,8 @@ function threeSum(arr, num) {
 }
 
 console.log(threeSum([-1, 1, 1, -4], 1));
+
+/**
+ * Time complexity : O(n^3)
+ * Space complexity : O(1)
+ */
