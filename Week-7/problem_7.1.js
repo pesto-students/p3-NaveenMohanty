@@ -171,4 +171,10 @@ linkedList.push(4)
 linkedList.reverse()
 console.log(linkedList.peek)
 
+/**
+ * Only for reverse functional
+ * Time Complexity : O(n)
+ * Space Complexity : O(1)
+ */
+
 

@@ -24,3 +24,9 @@ function NextGreaterEle(arr) {
 
 console.log(NextGreaterEle([1, 3, 2, 4]))
 console.log(NextGreaterEle([6, 8, 0, 1, 3]))
+
+
+/**
+ * Time Complexity : O(n)
+ * Space Complexity : O(n)
+ */

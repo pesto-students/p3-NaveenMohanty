@@ -171,3 +171,9 @@ linkedList.push(7)
 linkedList.push(8)
 linkedList.rotate(2)
 console.log(linkedList.peek)
+
+/**
+ * Only for rotate functional
+ * Time Complexity : O(n)
+ * Space Complexity : O(1)
+ */

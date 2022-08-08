@@ -175,3 +175,8 @@ console.log(list.peek)
 list.tail.next = list.head.next.next.next
 
 console.log(DetectLoop(list))
+
+/**
+ * Time Complexity : O(n)
+ * Space Complexity : O(1)
+ */

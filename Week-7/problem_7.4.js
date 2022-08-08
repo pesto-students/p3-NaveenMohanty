@@ -28,5 +28,10 @@ console.log(ParenthesisChecker(`{([])}`)) // True
 console.log(ParenthesisChecker(`()`)) // True
 console.log(ParenthesisChecker(`([]`)) // False
 
+/**
+ * Time Complexity : O(n)
+ * Space Complexity : O(n)
+ */
+
 
 
