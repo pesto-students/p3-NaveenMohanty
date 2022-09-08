@@ -1,4 +1,6 @@
-export default function Header() {
+import { memo } from "react";
+
+export default memo(function Header() {
   return (
     <header className="d-flex flex-wrap justify-content-center p-3 border-bottom text-bg-info">
       <a
@@ -12,31 +14,31 @@ export default function Header() {
       </a>
       <ul className="nav nav-pills">
         <li className="nav-item">
-          <a href="#" className="nav-link active" aria-current="page">
+          <a href="#cc" className="nav-link active" aria-current="page">
             Home
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#ff" className="nav-link">
             Features
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#vv" className="nav-link">
             Pricing
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#ff" className="nav-link">
             FAQs
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#d" className="nav-link">
             About
           </a>
         </li>
       </ul>
     </header>
   );
-}
+})

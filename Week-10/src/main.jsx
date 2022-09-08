@@ -1,6 +1,22 @@
 import Header from "./header";
 import Footer from "./footer";
-import { useState } from "react";
+import { useState, memo } from "react";
+
+const MidBody = memo(function () {
+  return (
+    <div className="bg-secondary text-dark px-4 py-5 text-center">
+      <div className="py-5">
+        <h1 className="display-5 fw-bold text-white">Shorten your URL</h1>
+        <div className="col-lg-6 mx-auto">
+          <p className="fs-5 mb-4">
+            Anyone with an internet browser can use link shorteners: social media managers, regular everyday Facebook moms, small business owners, TikTok tweens of all heights — and you!
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+})
+
 
 export default function Main(props) {
   const [url, setUrl] = useState("")
@@ -9,7 +25,6 @@ export default function Main(props) {
 
   const getShortUrl = (e) => {
     e && e.preventDafault && e.preventDafault()
-    console.log("CALLED")
     if (url) {
       setInProgress(true)
       setUrlData(false)
@@ -37,19 +52,12 @@ export default function Main(props) {
     props.openTost('URL Copied successfully!')
   }
 
+
+
   return (
     <div>
-      <Header />
-      <div className="bg-secondary text-dark px-4 py-5 text-center">
-        <div className="py-5">
-          <h1 className="display-5 fw-bold text-white">Shorten your URL</h1>
-          <div className="col-lg-6 mx-auto">
-            <p className="fs-5 mb-4">
-              Anyone with an internet browser can use link shorteners: social media managers, regular everyday Facebook moms, small business owners, TikTok tweens of all heights — and you!
-            </p>
-          </div>
-        </div>
-      </div>
+      <Header/>
+      <MidBody />
       <div className="card" style={{ padding: "50px  0" }}>
         <div className="card-body">
           <div className="input-group" style={{ width: "50%", margin: 'auto' }}>

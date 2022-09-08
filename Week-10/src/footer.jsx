@@ -1,4 +1,7 @@
-export default function Footer() {
+import { memo } from "react";
+
+
+export default memo(function Footer() {
   return (
     <footer className="d-flex flex-wrap justify-content-between align-items-center p-3 border-top text-bg-dark">
       <p className="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
@@ -12,27 +15,27 @@ export default function Footer() {
       </a>
       <ul className="nav col-md-4 justify-content-end">
         <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
+          <a href="#cc" className="nav-link px-2 text-muted">
             Home
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
+          <a href="#xx" className="nav-link px-2 text-muted">
             Features
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
+          <a href="#rr" className="nav-link px-2 text-muted">
             Pricing
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
+          <a href="#dd" className="nav-link px-2 text-muted">
             FAQs
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link px-2 text-muted">
+          <a href="#wss" className="nav-link px-2 text-muted">
             About
           </a>
         </li>
@@ -40,4 +43,4 @@ export default function Footer() {
     </footer>
 
   );
-}
+})
